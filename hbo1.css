@@ -1,0 +1,89 @@
+/* Estilo do topo */
+.topo {
+    background-color: #690DA7;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Estilo da imagem com sombra */
+.imagem-sombra {
+    width: 270px;
+    height: auto;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+/* Estilo da seção principal */
+.secao {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Estilo da galeria de imagens */
+.galeria {
+    display: flex;
+    overflow-x: auto;
+    margin: 0 auto 20px auto;
+}
+
+/* Estilo da imagem de capa */
+.img-capa {
+    background-image: url(capa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    left: 0;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    height: 100vh;
+}
+
+/* Estilo de links */
+a {
+    color: #690DA7;
+    background-color: #fff;
+    padding: 8px 20px;
+    border: 2px solid #690DA7;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    margin-left: 20px;
+    margin-right: -12px;
+}
+
+/* Estilo para imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para parágrafos */
+p {
+    text-align: left;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilo do rodapé */
+.rodape {
+    background-color: #690DA7;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    padding-left: 100px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
